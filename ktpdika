@@ -1,0 +1,57 @@
+public class profilktp {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        //Tipe data + variabel
+        String nama, ttl, kelamin, alamat, 
+                kelurahan, kecamatan, agama, pekerjaan,
+                kewarganegaraan, jurusan, berlaku;
+        long nik, nonim;
+        int angkatan, rtrw;
+        char goldarah;
+        float umur;
+        
+        //Isi variabel
+        nik = 3574042807970001L;
+        nama = "ANDIKA";
+        ttl = "PROBOLINGGO, 28-07-1999";
+        kelamin = "LAKI-LAKI";
+        goldarah = 'B'; 
+        alamat = "JL.KH HASAN GG. PELITA";
+        rtrw = 5;
+        kelurahan = "SUKOHARJO";
+        kecamatan = "KANIGARAN";
+        agama = "ISLAM";
+        pekerjaan = "MAHASISWA";
+        kewarganegaraan = "WNI";
+        nonim = 201969040022L;
+        jurusan = "Teknik Informatika";
+        angkatan = 2019;
+        umur = 20.25f;
+        berlaku = "SEUMUR HIDUP";
+        
+        //Keluaran
+        System.out.println("              PROVINSI JAWA TIMUR");
+        System.out.println("               KOTA PROBOLINGGO\n");
+        
+        System.out.println("NIK     : " + nik);
+        System.out.println("Nama            : " + nama);
+        System.out.println("Tempat/Tgl Lahir: " + ttl);
+        System.out.println("Jenis Kelamin   : " + kelamin + "     Gol.Darah : " + goldarah);
+        System.out.println("Alamat          : " + alamat);
+        System.out.println("    RT/RW       : 00" + rtrw + "/00" + rtrw);
+        System.out.println("    Kelurahan   : " + kelurahan);
+        System.out.println("    Kecamatan   : " + kecamatan);
+        System.out.println("Agama           : " + agama);
+        System.out.println("Pekerjaan       : " + pekerjaan);
+        System.out.println("Kewarganegaraan : " + kewarganegaraan);
+        System.out.println("NIM             : " + nonim);
+        System.out.println("Jurusan         : " + jurusan);
+        System.out.println("Angkatan        : " + angkatan);
+        System.out.println("Umur            : " + umur + " Tahun");
+        System.out.println("Berlaku Hingga  : " + berlaku);
+    }
+    
+}
